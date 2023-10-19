@@ -1,0 +1,99 @@
+/* Profile.css */
+
+ 
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+   
+  
+  .profile-form {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+   
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+   
+  
+  input {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+   
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+   
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+   
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+   
+  
+  .message {
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+   
+  
+  .avatar-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+   
+  
+  .avatar {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    object-fit: cover;
+  }
+  
+   
+  
+  .upload-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+  
+   
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
